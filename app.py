@@ -105,4 +105,4 @@ def upload_file():
         return jsonify({'class_id': class_id, 'predicted_class_name': class_name, 'nutritional_info': nutritional_info})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=5001)
